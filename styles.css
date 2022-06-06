@@ -1,0 +1,66 @@
+#div1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 600px;
+    top: 250px;
+    background-color: rgb(241, 250, 253);
+    width: 600px;
+    height: 400px;
+}
+
+#div2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0px;
+    bottom: 30px;
+    width: 320px;
+    height: 220px;
+    background-color: white;
+    box-shadow: 4px 4px #888888;
+}
+
+#div2 p {
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 20px;
+    width: inherit;
+    height: 30px;
+}
+
+span {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+label {
+    position: relative;
+    left: 20px;
+    font-size: 20px;
+}
+
+input {
+    position: relative;
+    left: 20px;
+    width: 280px;
+    height: 30px;
+}
+
+#div3 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: end;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    margin: 5px;
+    font-size: 20px;
+}
